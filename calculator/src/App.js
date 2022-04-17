@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Calculator from './components/Calculator';
 
 function App() {
   return (
     <div className="App">
-      <h1>Calculatora</h1>
+      <h2>Calculator</h2>
       <Calculator />
     </div>
   );

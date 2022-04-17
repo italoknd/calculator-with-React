@@ -1,0 +1,61 @@
+.calculator {
+  background-color: black;
+  border-radius: 8px;
+  height: 380px;
+  width: 235px;
+  padding: 0.3em;
+}
+
+.commands {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    25%
+  ); /*4 colunas e cada coluna ocupa 25% do esp*/
+}
+
+.result {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: .3em;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1em;
+  border: none;
+  border-radius: 50%;
+  margin: 0.3em;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(133, 133, 133);
+}
+
+.operators {
+  background-color: orange;
+  color: white;
+}
+
+.operators:hover {
+  background-color: rgba(226, 147, 0, 0.89);
+}
+
+.operators:active {
+  background-color: rgba(190, 124, 0, 0.89);
+}
+
+.gray {
+  background-color: #505050;
+  color: white;
+}
+
+.double {
+  grid-column: span 2;
+  padding: 0 3.5em;
+  border-radius: 1.5em;
+}
