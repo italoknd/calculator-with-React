@@ -19,6 +19,8 @@
   display: flex;
   justify-content: flex-end;
   margin-right: .3em;
+  overflow: hidden;
+  margin-left: .2em;
 }
 
 button {
