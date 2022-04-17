@@ -60,7 +60,7 @@ export default props => {
       setNum(parseFloat(oldNum) * parseFloat(num))
     } else if (operator === '/') {
       setNum(
-        (parseFloat(oldNum) / parseFloat(num)).toString().replace('.', ',')
+        (parseFloat(oldNum) / parseFloat(num))
       )
     }
   }
