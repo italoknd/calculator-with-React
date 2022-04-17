@@ -22,10 +22,10 @@ export default props => {
       return
     }
 
-    if (num > 0) {
-      clearMemory()
-      // setNum(num)
-    }
+    // if (num > 0) {
+    //   clearMemory()
+    //   setNum(num)
+    // }
   }
 
   function clearMemory() {
@@ -114,8 +114,8 @@ export default props => {
         <button className="gray double" value={0} onClick={addDigit}>
           0
         </button>
-        <button className="gray" value={','} onClick={addDigit}>
-          ,
+        <button className="gray" value={'.'} onClick={addDigit}>
+          .
         </button>
         <button className="operators" onClick={showResult}>
           =
